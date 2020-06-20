@@ -1,0 +1,30 @@
+name: HyperWarper
+version: 1.0.0
+author: JJDev256
+main: me.JJDev256.WarperPlugin.Main
+api-version: 1.13
+
+commands:
+  setwarp:
+    description: Allows players to set custom warp positons.
+    usage: USAGE >  /setwarp <name> <x> <y> <z> <yaw> <pitch> <world> or /setwarp <name>
+  warp:
+    description: Allows players to warp to pre-set positons.
+    usage: USAGE >  /warp <name>
+  spawn:
+    description: Teleport to spawn using this command.
+    usage: USAGE >  /spawn
+    
+permissions:
+  setwarp.*:
+    description: Allows players to set custom warp positons.
+    children: 
+      setwarp.use: true
+  setwarp.use:
+        default: op
+  warp.*:
+    description: Allows players to warp to pre-set positons.
+    children: 
+      warp.use: true
+  warp.use:
+        default: true

@@ -1,0 +1,15 @@
+general:
+  prefix: "&f[&1H&9W&f] "
+  num_args_err: "&cError in /<cmd>: Wrong number of arguments: <argslen> instead of <reqlen>!"
+  no_permission: "&cYou don't have permission to use this command!"
+  no_console: "&cYou can't run this in the console!"
+  type_err: "&cError in /<cmd>: '<arg>' is not a <typ>!"
+  chat_color_char: '&'
+  
+warps:
+  warps: "[test]"
+  warp_locations:
+    test: "[world,0,100,0,5,10]"
+  warp_already_set_err: "&cError in /<cmd>: warp name already taken!"
+  warp_doesnt_exist_err: "&cError in /<cmd>: warp doesn't exist!!"
+  warp_sucsessful: "&aWarp successful!"
